@@ -1,0 +1,74 @@
+@import url("https://use.typekit.net/yur1qcc.css");
+
+@keyframes carousel {
+  from {
+    transform: translate(0,0);
+  }
+  to {
+    transform: translate(calc(-100%),0);
+  }
+}
+
+html, body {
+  margin: 0;
+}
+.ac-bold {
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.ac-reg, h2 {
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+h2 {
+  font-size: 3.5vw;
+  text-align: center;
+  margin:0;
+  margin-bottom: 0.3em;
+  z-index: 2;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.section {
+  position: relative;
+  height: 100vh;
+}
+.p5Canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.marquee-container {
+  position: absolute;
+  top:0;
+}
+.marquee {
+  animation: carousel 12s linear infinite;
+  display: inline-block;
+  padding-right: 40px;
+  position: absolute;
+  white-space: nowrap;
+  overflow: visible;
+  -o-text-overflow: inherit;
+  text-overflow: inherit;
+  top: 0;
+}
+.marquee-offset {
+  left: 100vw;
+}
+.okay-btn {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialdistancing h2 {
+  color: #F2123E;
+}
